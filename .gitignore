@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Credentials (IMPORTANT!)
+config.py
+
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+data/analysis_reports/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
