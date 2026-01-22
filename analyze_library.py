@@ -24,6 +24,8 @@ def calculate_composite_score(df):
         scored['quality'] = scored['quality'].fillna(scored['quality'].median())
     else:
         scored['quality'] = 3
+        
+        
     
     # Map priority to numeric
     priority_map = {'high': 3, 'medium': 2, 'low': 1}
